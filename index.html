@@ -30,7 +30,7 @@
                 <a class="nav-link currentPage" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./blogs.html">Blogs</a>
+                <a class="nav-link" href="./articles.html">Articles</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./resources.html">Resources</a>
@@ -92,17 +92,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </header>
 
-  <main>
+  <main class="bg-dark">
      <!-- About -->
-     
+     <div class="container bg-light text-center text-md-left p-4 my-5 rounded-3">
+        <h1 class="display-5 fw-bold"> About This Website </h1>
+        <p>Amidst lockdowns and the digital age, humankind faced an inevitable decline in mental health levels. Our usual activities and routines were
+          abruptly disrupted for an extended period of time which has led to deteriorating mental health and increased suicidal behavior. During the
+          first year of COVID-19 pandemic, global pandemic of anxiety and depression increased by a massive 25% (World Health Organization [WHO], 2022).</p>
+        <p>We need to take immediate action to combat the lingering impacts of lockdowns on our global community in terms of their mental health. This is the main goal of Manifest. This project offers expert-led introspection, counseling, and articles to combat psychological challenges. Join our supportive community for sharing, learning, and growth. Access resources and solutions for mental wellness.</p>
+        <a href="./about.html" class="btn btn-primary">Read more</a>
+     </div>
+
+    <!-- Feature overview -->
+    <section class="feature-overview alternate-section my-4 p-4 bg-dark", id="feature-overview">
+      <div class="container">
+          <ul class="cards flex">
+              <li class="card" id="feature-blog">
+                  <h2 class="text-uppercase text-white">articles</h2>
+                  <p class="text-white">Explore, learn, and connect with us as we navigate the complexities of mental health together.</p>
+                  <a href="./articles.html" class="btn btn-md text-white btn-outline-success">Go to Articles</a>
+              </li>
+              <li class="card" id="feature-resources">
+                  <h2 class="text-uppercase text-white">Resources</h2>
+                  <p class="text-white">Explore our Resources section for essential insights on mental health. Dive into guides and support services tailored to empower and educate. Start your journey to greater awareness with Manifest.</p>
+                  <a href="./resources.html" class="btn btn-md text-white btn-outline-success">Go to Resources</a>
+              </li>
+              <li class="card" id="feature-sharings">
+                  <h2 class="text-uppercase text-white">Sharings</h2>
+                  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, reprehenderit aliquid qui aspernatur rem aliquam earum autem quidem pariatur quae, eveniet saepe nostrum? Accusamus temporibus eaque commodi cupiditate minus esse.</p>
+                  <a href="./sharings.html" class="btn btn-md text-white btn-outline-success">Go to Sharings</a>
+              </li>
+          </ul>
+      </div>
+  </section>
+
   </main>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white pt-5 pb-4">
+    <footer class="bg-dark text-white pt-1 pb-4">
 
       <div class="container text-center text-md-left">
 
           <div class="row text-center text-md-left">
+            <hr class="m-4">
 
             <!-- Company information -->
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -128,7 +160,7 @@
             <div class="col-md-2 col-lg-6 col-xl-6 mx-auto mt-3">
               <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h5>
               <p>
-                <i class="bi bi-house-door-fill"></i> Universiti Malaya, 50603 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+                <i class="bi bi-house-door-fill"></i> Universiti Malaya, Federal Territory of Kuala Lumpur
               </p>
               <p>
                 <i class="bi bi-envelope-fill"></i> manifest-incorporated@business.com
@@ -140,7 +172,7 @@
 
           </div>
 
-          <hr class="mb-4">
+          <hr class="m-4">
 
           <div class="row align-items-center">
 

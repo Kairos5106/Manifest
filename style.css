@@ -5,18 +5,12 @@
   font-family: "Quicksand";
 }
 body{
-  background-color: #ffe5b4;
+  background-color:#212529;
 }
 p{
   font-size: 18px;
 }
 /* Navigation bar */
-h1{
-  color: #b90e41;
-  text-align: center;
-  margin-bottom: 10px;
-  font-size: 2.5rem;
-}
 h1 a{
   text-decoration: none;
   color: #b90e41;
@@ -57,7 +51,70 @@ h1 a:hover{
   top: 0;
 }
 
-/* Home */
+/* Feature intro */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+section .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch; /* make all the cards to be the same height with each other */
+}
+
+section .card {
+  width: calc(100% / 3 - 30px);
+  text-align: center;
+  list-style: none;
+  background-color: #fff;
+  padding: 40px 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+section .card img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+.alternate-section {
+  background-color: #edebe8;
+}
+
+section .card p {
+  margin-top: 5px;
+  flex-grow: 1;
+}
+
+#feature-blog {
+  background-image: url(./images/feature-blog.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#feature-resources {
+  background-image: url(./images/feature-resources.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#feature-sharings {
+  background-image: url(./images/sessions.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 /* Blogs */
 .container{
