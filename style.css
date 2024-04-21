@@ -117,9 +117,6 @@ section .card p {
 }
 
 /* Blogs */
-.container{
-  margin-bottom: 20px;
-}
 .card-style{
     margin: 10px 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
