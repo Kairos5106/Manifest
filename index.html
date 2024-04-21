@@ -9,107 +9,185 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet"> <!-- bootstrap icons -->
 
-    <style>
-        .full{
-            color: white;
-            margin: 0;
-            background-color: royalblue;
-        .heading{
-            color: white;
-        }
-        .para{
-            color: white;
-        }
-      }
-    </style>
-
-    <title>Mental-Health</title>
+    <!-- Page title -->
+    <title>Manifest: Home Page</title>
   </head>
+
   <body class='full'>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="border-bottom: white solid 0.6vw;">
+    <!-- Navigation bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <img src="./images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-          <a class="navbar-brand" href="#">MIND MENDER</a>
+          <a class="navbar-brand" href="./index.html">Manifest</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link currentPage" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./blogs.html">Blogs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./healthProblems.html">Health problems</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Expert Sessions
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="./sessions.html">Live Session</a></li>
-                  <li><a class="dropdown-item" href="#">Book Counselling Slot</a></li>
-                </ul>
+                <a class="nav-link" href="./resources.html">Resources</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./aboutUs.html">About Us</a>
+                <a class="nav-link" href="./sharings.html">Sharings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
               </li>
             </ul>
+            <a class="btn btn-primary" href="./signUp.html" role="button">Log in</a>
+            <span style="margin: 0 5px;"></span> <!-- Add spacing between buttons -->
             <a class="btn btn-primary" href="./signUp.html" role="button">Sign in</a>
           </div>
-        </div>
-      </nav>
-        
-      <!-- Carousel -->
-      <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="./images/f.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <img src="./images/logo.png" alt="" width=100ovw height=100vw>
-              <h1 class="text-light text-xl-center">Mind Mender</h1>
-              <p class="text-light">IT'S OKAY IF YOU VISIT US!!</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="./images/l.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <img src="./images/logo.png" alt="" width=100ovw height=100vw>
-              <h1 class="text-light text-xl-center">Mind Mender</h1>
-              <p class="text-light">IT'S OKAY IF YOU VISIT US!!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./images/h.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <img src="./images/logo.png" alt="" width=100ovw height=100vw>
-              <h1 class="text-light text-xl-center">Mind Mender</h1>
-              <p class="text-light">IT'S OKAY IF YOU VISIT US!!</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-
-
-
+    </nav>
+        
+    <header>
+    <!-- Carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-light slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="./images/carousel1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="text-light text-xl-center">Manifest</h1>
+            <p class="text-light">Empowering mental wellness</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="./images/carousel2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="text-light text-xl-center">Manifest</h1>
+            <p class="text-light">Empowering mental wellness</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="text-light text-xl-center">Manifest</h1>
+            <p class="text-light">Empowering mental wellness</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </header>
+
+  <main>
+     <!-- About -->
+     
+  </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+
+      <div class="container text-center text-md-left">
+
+          <div class="row text-center text-md-left">
+
+            <!-- Company information -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Manifest Incorporated</h5>
+              <p>Empowering mental wellness. Articles, community support, and advocacy for self-care. Join us in the journey toward holistic well-being.</p>
+            </div>
+
+            <!-- Products -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Manifest Journal</a>                
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">2024 Calendar</a>                
+              </p>
+              <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Health Booklet</a>                
+              </p>
+            </div>
+
+            <!-- Contacts -->
+            <div class="col-md-2 col-lg-6 col-xl-6 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h5>
+              <p>
+                <i class="bi bi-house-door-fill"></i> Universiti Malaya, 50603 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+              </p>
+              <p>
+                <i class="bi bi-envelope-fill"></i> manifest-incorporated@business.com
+              </p>
+              <p>
+                <i class="bi bi-telephone-fill"></i> +60 84-249 999
+              </p>
+            </div>
+
+          </div>
+
+          <hr class="mb-4">
+
+          <div class="row align-items-center">
+
+            <!-- Copyright -->
+            <div class="col-md-7 col-lg-8">
+              <p> Copyright @2024 All rights reserved by:
+                <a href="#" style="text-decoration: none;">
+                  <strong class="text-warning">Manifest Incorporated</strong>
+                </a>
+              </p>
+            </div>
+
+            <!-- Company social media -->
+            <div class="col-md-5 col-lg-4">
+              <div class="text-center text-md-right">
+
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                      <i class="bi bi-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+
+      </div>
+      
+    </footer>
 
   </body>
 </html>
