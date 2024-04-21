@@ -10,7 +10,7 @@ body{
 p{
   font-size: 18px;
 }
-/* navBar */
+/* Navigation bar */
 h1{
   color: #b90e41;
   text-align: center;
@@ -47,9 +47,10 @@ h1 a:hover{
 .navBar li a:hover{
   border-bottom: 2px solid yellow;
 }
-.active{
+.currentPage{
   border-bottom: 2px solid yellow;
 }
+
 .sticky{
   z-index: 1000;
   position: sticky;
@@ -77,7 +78,7 @@ h1 a:hover{
     transform: scale(1.2);
 }
 
-/* Health problems */
+/* Resources */
 .problem{
   background-color: white;
   padding: 10px;
@@ -96,7 +97,7 @@ h1 a:hover{
   color:teal;
 }
 
-/* Live Sessions */
+/* Sharings */
 .session{
   margin: 10px 0;
   transition: all 0.3s ease;
@@ -114,7 +115,7 @@ h1 a:hover{
     border-bottom: solid 4px orange;
 }
 
-/* About us */
+/* About */
 .profile img{
   width: 200px;
 }
@@ -126,7 +127,7 @@ h1 a:hover{
   width: 20px;
 }
 
-/* Sign Up form */
+/* Sign Up */
 input[type=email], input[type=password]{
   width: 100%;
   padding: 15px;
