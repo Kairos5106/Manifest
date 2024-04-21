@@ -13,14 +13,14 @@
 
     <!-- Page title & icon -->
     <title>Manifest: Articles</title>
-    <link rel="icon" href="./images/logo.png" type="image/png">
+    <link rel="icon" href="./images/logo-24p.png" type="image/png"> <!-- logo needs to at least 32x32px or 16x16px-->
 </head>
 <body>
 
     <!-- Navigation bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Manifest</a>
+          <a class="navbar-brand" href="./index.html"><img class="mx-2 mb-1" src="images/logo.png" width="30px" height="30px">Manifest</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,28 +42,27 @@
                 <a class="nav-link" href="./about.html">About</a>
               </li>
             </ul>
-            <a class="btn btn-primary" href="./signUp.html" role="button">Log in</a>
-            <span style="margin: 0 5px;"></span> <!-- Add spacing between buttons -->
-            <a class="btn btn-primary" href="./signUp.html" role="button">Sign in</a>
+            <a class="btn btn-primary" href="./login.html" role="button"><i class="bi bi-door-open-fill"></i> Log in</a>
           </div>
       </div>
     </nav>
 
     <!-- Content -->
-    <div class="main">
+    <main>
+    <div class="container-fluid">
         <div class="heading">
-            <h2>articles</h2>
+            <h2 class="text-white m-4 px-4">Articles</h2>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row"> <!-- first row -->
                 <div class="col-sm-4 py-3 py-sm-0">
                     <div class="card  card-style">
                         <div class="card-img">
                             <img style="height: 250px" src="images/children.jpg" class="card-img-top " alt="...">
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">How to help the Children: Covid-19 and Health Anxiety</h5>
-                          <p class="card-text">The Covid-19 pandemic has changed the life of children in profound ways. The safety measures like: Isolation,...</p>
+                          <h5 class="card-title">COVID-19 and Anxiety in Children</h5>
+                          <p class="card-text">The COVID-19 pandemic has changed the life of children in profound ways. The safety measures that involves isolation and social...</p>
                           <a href="https://mpowerminds.com/blog/How-to-help-the-children-COVID-19-and-health-anxiety-Need-for-child-counselling-in-Kolkata" target="_blank" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
@@ -74,7 +73,7 @@
                             <img style="height: 250px" src="images/questions.jpg" class="card-img-top " alt="...">
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Common questions people ask about depression and mental health disorders</h5>
+                          <h5 class="card-title">Common questions about depression and mental health disorders</h5>
                           <p class="card-text">Seeking help for your mental health as early as possible can make a big...</p>
                           <a href="https://mpowerminds.com/blog/Common-questions-people-ask-about-depression-and-mental-health-disorders-and-Finding-a-good-psychiatrist-in-Mumbai" target="_blank" class="btn btn-primary">Read More</a>
                         </div>
@@ -86,16 +85,55 @@
                             <img style="height: 250px" src="images/beKind.jpg" class="card-img-top " alt="...">
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Be kind to others as not every struggle is visible</h5>
+                          <h5 class="card-title">Be kind to others as not everyone's struggle is visible</h5>
                           <p class="card-text">My first experience of anxiety wasn’t until I started my second year at sixth form and wow did it hit me hard!...</p>
                           <a href="https://www.rethink.org/news-and-stories/articles/2021/09/be-kind-to-others-as-not-every-struggle-is-visible-harriets-story/" target="_blank" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row"> <!-- 2nd row -->
+              <div class="col-sm-4 py-3 py-sm-0">
+                  <div class="card  card-style">
+                      <div class="card-img">
+                          <img style="height: 250px" src="images/anxiety.jpg" class="card-img-top " alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Understanding Anxiety: Symptoms, Causes, and Coping Strategies</h5>
+                        <p class="card-text">Learn about anxiety's impact, common triggers, and effective coping mechanisms for managing stress...</p>
+                        <a href="https://www.medicalnewstoday.com/articles/323454" target="_blank" class="btn btn-primary">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-4 py-3 py-sm-0">
+                  <div class="card  card-style">
+                      <div class="card-img">
+                          <img style="height: 250px" src="images/selfcare.jpg" class="card-img-top " alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">The Power of Self-Care: Prioritizing Mental Well-Being in Daily Life</h5>
+                        <p class="card-text">Explore the importance of self-care practices, including mindfulness, exercise, and setting boundaries...</p>
+                        <a href="https://saliencehealth.com/the-power-of-self-care/#:~:text=Prioritizing%20self%2Dcare%20has%20a,navigate%20life's%20challenges%20and%20pressures." target="_blank" class="btn btn-primary">Read More</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm-4 py-3 py-sm-0">
+                  <div class="card  card-style">
+                      <div class="card-img">
+                          <img style="height: 250px" src="images/conversations.jpg" class="card-img-top " alt="...">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Breaking the Stigma: Encouraging Open Conversations About Mental Health</h5>
+                        <p class="card-text">Discuss the importance of destigmatizing mental health issues, promoting empathy, and fostering support...</p>
+                        <a href="https://care-clinics.com/breaking-the-stigma-discussing-mental-health-openly/#:~:text=Here%20are%20some%20ways%20to,and%20reduce%20feelings%20of%20isolation." target="_blank" class="btn btn-primary">Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
     </div>
-    
+  </main>
+
     <!-- Footer -->
     <footer class="bg-light text-black pt-3 mt-4">
 
@@ -104,7 +142,7 @@
 
             <!-- Copyright -->
             <div class="col-md-7 col-lg-8">
-              <p class="text-black"> Copyright @2024 All rights reserved by:
+              <p class="text-black"> Copyright @ 2024 All rights reserved by:
                 <a href="#" style="text-decoration: none;">
                   <strong class="text-warning">Manifest Incorporated</strong>
                 </a>

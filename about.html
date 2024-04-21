@@ -13,14 +13,14 @@
 
     <!-- Page title & icon -->
     <title>Manifest: About Us</title>
-    <link rel="icon" href="./images/logo.png" type="image/png">
+    <link rel="icon" href="./images/logo-24p.png" type="image/png"> <!-- logo needs to at least 32x32px or 16x16px-->
 </head>
 <body>
 
     <!-- Navigation bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Manifest</a>
+          <a class="navbar-brand" href="./index.html"><img class="mx-2 mb-1" src="images/logo.png" width="30px" height="30px">Manifest</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,77 +42,93 @@
                 <a class="nav-link currentPage" href="./about.html">About</a>
               </li>
             </ul>
-            <a class="btn btn-primary" href="./signUp.html" role="button">Log in</a>
-            <span style="margin: 0 5px;"></span> <!-- Add spacing between buttons -->
-            <a class="btn btn-primary" href="./signUp.html" role="button">Sign in</a>
+            <a class="btn btn-primary" href="./login.html" role="button"><i class="bi bi-door-open-fill"></i> Log in</a>
           </div>
       </div>
     </nav>
 
-    <section class="about">
+    <main>
+    <!-- Banner -->
+    <div id="banner-about">
         <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h3>Welcome at Mind Mendor</h3>
-                    <hr>
-                </div>
-                <div class="col-md-3">
-                    <img class="img-fluid" src="./images/logo.png" alt="">
-                </div>
-                <div class="col-md-9">
-                    <p style="font-size: large;">
-                        Our project addresses Mental Health Issues and the need to be aware about it.
-                        The project aims at helping people to get rid of their psychological problems by introspecting 
-                        and understanding themselves through expert sessions, personalized counseling sessions, and curated articles. 
-                    </p>
-                    <p style="font-size: large;">
-                        It also focuses on building a community where like-minded people can socialise, share their experiences 
-                        and problems, understand things better and prosper. Additionally, people can also get information about 
-                        different mental health problems, tips, solutions, etc.
-                    </p>
-                </div>
-            </div>
+            <h1 class="display-2 fw-bold text-white">About Us</h1>
         </div>
-    </section>
-    <section class="team">
+    </div>
+
+    <!-- About Us -->
+        <div class="container-fluid bg-dark text-md-left p-4 section-margin">
+            <h2 class="text-white pb-2"><strong>Empowering Minds, Embracing Change: Manifesting Mental Wellness Together.</strong></h2>
+            <p class="text-light">Amidst lockdowns and the digital age, humankind faced an inevitable decline in mental health levels. Our usual activities and routines were
+              abruptly disrupted for an extended period of time which has led to deteriorating mental health and increased suicidal behavior. During the
+              first year of COVID-19 pandemic, global pandemic of anxiety and depression increased by a massive 25% (World Health Organization, 2022).</p>
+            <p class="text-light">We need to take immediate action to combat the lingering impacts of lockdowns on our global community in terms of their mental health. This is the main goal of Manifest. This project offers expert-led introspection, counseling, and articles to combat psychological challenges. Join our supportive community for sharing, learning, and growth. Access resources and solutions for mental wellness.</p>
+        </div>
+
+    <!-- Our Founder -->
+
+
+    <!-- Our Visions -->
+    </main>
+    <div class="vision">
         <div class="container">
-            <div class="row mt-4">
-                <div class="col text-center">
-                    <h3>Our Team</h3>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-3 text-center profile">
-                    <img class="img-fluid p-4" src="./images/avatar.png" alt="">
-                    <h5><a href="https://www.linkedin.com/in/gourav-falswal-66763320a/" target="_blank"><img class="icon" src="./images/linkedIn.ico" alt=""> Gourav</a> </h5>
-                </div>
-                <div class="col-md-3 text-center profile">
-                    <img class="img-fluid p-4" src="./images/avatar.png" alt="">
-                    <h5><a href="https://www.linkedin.com/in/dipesh-kanodia-529686220" target="_blank"><img class="icon" src="./images/linkedIn.ico" alt=""> Dipesh kanodia</a> </h5>
-                </div>
-                <div class="col-md-3 text-center profile">
-                    <img class="img-fluid p-4" src="./images/avatar.png" alt="">
-                    <h5><a href="https://www.linkedin.com/in/aditya-raj-singh-93863a1ba" target="_blank"><img class="icon" src="./images/linkedIn.ico" alt=""> Aditya Raj Singh</a> </h5>
-                </div>
-                <div class="col-md-3 text-center profile">
-                    <img class="img-fluid p-4" src="./images/avatar.png" alt="">
-                    <h5><a href="https://www.linkedin.com/in/ashutosh-panda-a174b8219/" target="_blank"><img class="icon" src="./images/linkedIn.ico" alt=""> Ashutosh Panda</a> </h5>
-                </div>
-            </div>
-            
+            <h1 class="display-2 fw-bold text-warning">Our Vision</h1>
+            <p>
+                At Manifest, our vision is to foster a world where mental wellness is embraced, understood, and prioritized. We envision a future where individuals are empowered to navigate life's challenges with resilience, compassion, and support. Through advocacy, education, and community-building initiatives, we strive to break down barriers, destigmatize mental health, and create a culture of holistic well-being for all.
+            </p>
         </div>
-    </section>
+    </div>
 
-    <!-- Footer -->
-    <footer class="bg-light text-black pt-3 mt-4">
+     <!-- Footer -->
+     <footer class="bg-dark text-white pt-1 pb-4">
 
-        <div class="container text-md-left">
-              <div class="row align-items-center">
+        <div class="container text-center text-md-left">
+  
+            <div class="row text-center text-md-left">
+              <hr class="m-4">
+  
+              <!-- Company information -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Manifest Incorporated</h5>
+                <p>Empowering mental wellness. Articles, community support, and advocacy for self-care. Join us in the journey toward holistic well-being.</p>
+              </div>
+  
+              <!-- Products -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Manifest Journal</a>                
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">2024 Calendar</a>                
+                </p>
+                <p>
+                  <a href="#" class="text-white" style="text-decoration: none;">Health Booklet</a>                
+                </p>
+              </div>
+  
+              <!-- Contacts -->
+              <div class="col-md-2 col-lg-6 col-xl-6 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h5>
+                <p>
+                  <i class="bi bi-house-door-fill"></i> Universiti Malaya, Federal Territory of Kuala Lumpur
+                </p>
+                <p>
+                  <i class="bi bi-envelope-fill"></i> manifest-incorporated@business.com
+                </p>
+                <p>
+                  <i class="bi bi-telephone-fill"></i> +60 84-249 999
+                </p>
+              </div>
+  
+            </div>
+  
+            <hr class="m-4">
+  
+            <div class="row align-items-center">
   
               <!-- Copyright -->
               <div class="col-md-7 col-lg-8">
-                <p class="text-black"> Copyright @2024 All rights reserved by:
+                <p> Copyright @ 2024 All rights reserved by:
                   <a href="#" style="text-decoration: none;">
                     <strong class="text-warning">Manifest Incorporated</strong>
                   </a>
@@ -125,22 +141,22 @@
   
                   <ul class="list-unstyled list-inline">
                     <li class="list-inline-item">
-                      <a href="#" class="btn-floating btn-sm text-primary" style="font-size: 23px;">
+                      <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
                         <i class="bi bi-facebook"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="btn-floating btn-sm text-primary" style="font-size: 23px;">
+                      <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
                         <i class="bi bi-twitter"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="btn-floating btn-sm text-primary" style="font-size: 23px;">
+                      <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
                         <i class="bi bi-linkedin"></i>
                       </a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#" class="btn-floating btn-sm text-primary" style="font-size: 23px;">
+                      <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
                         <i class="bi bi-youtube"></i>
                       </a>
                     </li>
